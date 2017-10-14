@@ -1,6 +1,6 @@
 <?php
 if ($_POST['jslng']) {
-	$connToNiyiDB=mysqli_connect("wekooks.com","niyi_root","password");
+	$connToNiyiDB=mysqli_connect("wekooks.com","niyi_root","***");
 	if (!$connToNiyiDB) {
 		die("连接服务器失败".mysqli_error(false));
 	}
